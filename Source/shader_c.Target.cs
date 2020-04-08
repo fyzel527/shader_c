@@ -12,3 +12,4 @@ public class shader_cTarget : TargetRules
 		ExtraModuleNames.Add("shader_c");
 	}
 }
+//define by self
