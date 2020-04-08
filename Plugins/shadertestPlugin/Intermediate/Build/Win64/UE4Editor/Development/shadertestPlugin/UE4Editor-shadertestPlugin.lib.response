@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-shadertestPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\shader_c\Intermediate\Build\Win64\shader_cEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\shader_c\Plugins\shadertestPlugin\Intermediate\Build\Win64\UE4Editor\Development\shadertestPlugin\shadertestPlugin.cpp.obj"
+"D:\shader_c\Plugins\shadertestPlugin\Intermediate\Build\Win64\UE4Editor\Development\shadertestPlugin\Default.rc2.res"
+/OUT:"D:\shader_c\Plugins\shadertestPlugin\Intermediate\Build\Win64\UE4Editor\Development\shadertestPlugin\UE4Editor-shadertestPlugin.lib"
+/INCLUDE:IMPLEMENT_MODULE_shadertestPlugin

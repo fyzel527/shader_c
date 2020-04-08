@@ -1,0 +1,2 @@
+D:\shader_c\Plugins\shadertestPlugin\Intermediate\Build\Win64\UE4Editor\Development\shadertestPlugin\Definitions.shadertestPlugin.h
+D:\shader_c\Plugins\shadertestPlugin\Source\shadertestPlugin\Public\shadertestPlugin.h

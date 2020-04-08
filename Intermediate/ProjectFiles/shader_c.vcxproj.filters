@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\shader_c.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{248F445D-0D03-44F9-B6C0-8298065D1B46}</UniqueIdentifier>
+      <UniqueIdentifier>{0DCC167F-09D9-4FB0-BF4B-DF2102C34BB4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\shader_c.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\shader_cEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C389F4B1-50AA-4DB3-972F-B19260197A59}</UniqueIdentifier>
+      <UniqueIdentifier>{AB721BD3-AE4F-433A-879C-A40409D32A9D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,8 +31,59 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{0660DC7B-FAF6-4A0F-A7BE-AA6CF3D2A747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\shadertestPlugin">
+      <UniqueIdentifier>{244151A9-3450-4AE8-B5BE-4D85ED1E84E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\shadertestPlugin\Source">
+      <UniqueIdentifier>{B90B9838-520B-40A3-9EA4-CF3E137588F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\shadertestPlugin\Source\shadertestPlugin">
+      <UniqueIdentifier>{CE5C566B-368A-46D1-8BD3-BF314DE01392}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\shadertestPlugin\Source\shadertestPlugin\shadertestPlugin.Build.cs">
+      <Filter>Plugins\shadertestPlugin\Source\shadertestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\shadertestPlugin\Source\shadertestPlugin\Private">
+      <UniqueIdentifier>{79DEEE8E-6B54-41C0-8310-634A50DA12E4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\shadertestPlugin\Source\shadertestPlugin\Private\MyShaderTest.cpp">
+      <Filter>Plugins\shadertestPlugin\Source\shadertestPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\shadertestPlugin\Source\shadertestPlugin\Private\shadertestPlugin.cpp">
+      <Filter>Plugins\shadertestPlugin\Source\shadertestPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\shadertestPlugin\Source\shadertestPlugin\Public">
+      <UniqueIdentifier>{B7FE5274-37FD-4792-AB38-DF5CC3FC2969}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\shadertestPlugin\Source\shadertestPlugin\Public\MyShaderTest.h">
+      <Filter>Plugins\shadertestPlugin\Source\shadertestPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\shadertestPlugin\Source\shadertestPlugin\Public\shadertestPlugin.h">
+      <Filter>Plugins\shadertestPlugin\Source\shadertestPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\shadertestPlugin\shadertestPlugin.uplugin">
+      <Filter>Plugins\shadertestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\shadertestPlugin\Resources">
+      <UniqueIdentifier>{ED6750A0-89DD-4BEE-BF67-EB934E08FC56}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\shadertestPlugin\Resources\Icon128.png">
+      <Filter>Plugins\shadertestPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\shadertestPlugin\Shaders">
+      <UniqueIdentifier>{79A8C977-AB7B-431F-9E6D-160499B0B163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\shadertestPlugin\Shaders\Privata">
+      <UniqueIdentifier>{6C141DB9-4DE2-41ED-97FE-293C123459FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\shadertestPlugin\Shaders\Privata\MyShader.usf">
+      <Filter>Plugins\shadertestPlugin\Shaders\Privata</Filter>
+    </None>
     <Filter Include="Source\shader_c">
-      <UniqueIdentifier>{2EF95598-6F02-41CE-A0C6-10F29CB0DEF8}</UniqueIdentifier>
+      <UniqueIdentifier>{BC2F9EEE-18E6-4DE4-8F1B-1AD3106E8CFE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\shader_c\shader_c.Build.cs">
       <Filter>Source\shader_c</Filter>

@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"D:\\shader_c\\Source\\shader_c\\shader_c.Build.cs",
+		"D:\\shader_c\\Plugins\\shadertestPlugin\\Source\\shadertestPlugin\\shadertestPlugin.Build.cs",
 		"D:\\shader_c\\Source\\shader_c.Target.cs",
 		"D:\\shader_c\\Source\\shader_cEditor.Target.cs"
 	],
