@@ -1,0 +1,2 @@
+D:\shader_c\Intermediate\Build\Win64\UE4Editor\Development\shader_c\Definitions.shader_c.h
+d:\shader_c\source\shader_c\shader_c.h

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\shader_c.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{248F445D-0D03-44F9-B6C0-8298065D1B46}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\shader_c.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\shader_cEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C389F4B1-50AA-4DB3-972F-B19260197A59}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\shader_c">
+      <UniqueIdentifier>{2EF95598-6F02-41CE-A0C6-10F29CB0DEF8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\shader_c\shader_c.Build.cs">
+      <Filter>Source\shader_c</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\shader_c\shader_c.cpp">
+      <Filter>Source\shader_c</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\shader_c\shader_c.h">
+      <Filter>Source\shader_c</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\shader_c\shader_cCharacter.cpp">
+      <Filter>Source\shader_c</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\shader_c\shader_cCharacter.h">
+      <Filter>Source\shader_c</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\shader_c\shader_cGameMode.cpp">
+      <Filter>Source\shader_c</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\shader_c\shader_cGameMode.h">
+      <Filter>Source\shader_c</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
